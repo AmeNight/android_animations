@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="ConstraintLayout animations"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/btn_group_animation"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Group animation"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_set_animation"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Set animation"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_placeholder_animation"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Placeholder animation"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Classic Animation (android.view.animation)"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/btn_classic_animation"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Classic animations"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_resources_animation"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Animation resources"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_activity_animation"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Activity animation"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_combined_animation"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Combined animation"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_background_animation"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Background frame animation"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Animators"
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+</layout>
