@@ -1,10 +1,15 @@
-package com.example.elysiak.animationsproject;
+package com.example.elysiak.animationsproject.main;
 
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
+import com.example.elysiak.animationsproject.R;
+import com.example.elysiak.animationsproject.animators.AnimatorSetActivity;
+import com.example.elysiak.animationsproject.animators.ObjectAnimatorActivity;
+import com.example.elysiak.animationsproject.animators.ViewPropertyAnimatorActivity;
+import com.example.elysiak.animationsproject.animators.XMLAnimatorActivity;
 import com.example.elysiak.animationsproject.classic_animations.BackgroundAnimationActivity;
 import com.example.elysiak.animationsproject.classic_animations.ClassicAnimationsActivity;
 import com.example.elysiak.animationsproject.classic_animations.ResourcesAnimationsActivity;
@@ -14,6 +19,8 @@ import com.example.elysiak.animationsproject.constraint_animations.ConstraintSet
 import com.example.elysiak.animationsproject.constraint_animations.GroupAnimationActivity;
 import com.example.elysiak.animationsproject.constraint_animations.PlaceHolderAnimationActivity;
 import com.example.elysiak.animationsproject.databinding.ActivityMainBinding;
+import com.example.elysiak.animationsproject.transitions.SimpleTransitionActivity;
+import com.example.elysiak.animationsproject.transitions.resources.TransitionResourcesActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,6 +42,12 @@ public class MainActivity extends AppCompatActivity {
         views.btnActivityAnimation.setOnClickListener(v -> openActivity(FirstActivityAnimationActivity.class));
         views.btnCombinedAnimation.setOnClickListener(v -> openActivity(FirstCombinedAnimationActivity.class));
         views.btnBackgroundAnimation.setOnClickListener(v -> openActivity(BackgroundAnimationActivity.class));
+        views.btnObjectAnimator.setOnClickListener(v -> openActivity(ObjectAnimatorActivity.class));
+        views.btnAnimatorSet.setOnClickListener(v -> openActivity(AnimatorSetActivity.class));
+        views.btnViewPropertyAnimator.setOnClickListener(v -> openActivity(ViewPropertyAnimatorActivity.class));
+        views.btnXmlAnimator.setOnClickListener(v -> openActivity(XMLAnimatorActivity.class));
+        views.btnSimpleTransition.setOnClickListener(v -> openActivity(SimpleTransitionActivity.class));
+        views.btnTransitionResources.setOnClickListener(v -> openActivity(TransitionResourcesActivity.class));
     }
 
     private void openActivity(Class activityClass) {
