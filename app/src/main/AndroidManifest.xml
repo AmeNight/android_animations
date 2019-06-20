@@ -34,6 +34,18 @@
         <activity android:name=".animators.XMLAnimatorActivity" />
         <activity android:name=".transitions.SimpleTransitionActivity" />
         <activity android:name=".transitions.resources.TransitionResourcesActivity" />
+        <activity android:name=".advanced_transitions.ExplodeAndSlideActivity" />
+        <activity android:name=".advanced_transitions.CoordinatedMotionActivity" />
+        <activity android:name=".advanced_transitions.TransformsActivity" />
+        <activity android:name=".advanced_transitions.shared_element.SharedElementActivity" />
+        <activity android:name=".advanced_transitions.shared_element.SharedElementSecondActivity" />
+        <activity
+            android:name=".advanced_transitions.window.WindowContentTransitionsActivity"
+            android:theme="@style/WindowTransitions" />
+        <activity
+            android:name=".advanced_transitions.window.WindowContentTransitions2Activity"
+            android:theme="@style/WindowTransitions" />
+        <activity android:name=".advanced_transitions.fragment_transitions.FragmentTransitionsActivity" />
     </application>
 
 </manifest>

@@ -150,6 +150,61 @@
                 android:layout_marginTop="8dp"
                 android:text="Transition resources"
                 android:textAllCaps="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Advanced Transitions and Shared Element Transition"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/btn_explode_and_slide"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Explode and Slide"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_coordinated_motion"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Coordinated motion"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_transforms"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Transforms"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_shared_element"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Shared Element"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_window_content_transitions"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Window Content Transitions"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_fragment_transition"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Fragment Transition"
+                android:textAllCaps="false" />
         </LinearLayout>
     </ScrollView>
 </layout>

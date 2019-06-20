@@ -6,6 +6,12 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 import com.example.elysiak.animationsproject.R;
+import com.example.elysiak.animationsproject.advanced_transitions.CoordinatedMotionActivity;
+import com.example.elysiak.animationsproject.advanced_transitions.ExplodeAndSlideActivity;
+import com.example.elysiak.animationsproject.advanced_transitions.TransformsActivity;
+import com.example.elysiak.animationsproject.advanced_transitions.fragment_transitions.FragmentTransitionsActivity;
+import com.example.elysiak.animationsproject.advanced_transitions.window.WindowContentTransitionsActivity;
+import com.example.elysiak.animationsproject.advanced_transitions.shared_element.SharedElementActivity;
 import com.example.elysiak.animationsproject.animators.AnimatorSetActivity;
 import com.example.elysiak.animationsproject.animators.ObjectAnimatorActivity;
 import com.example.elysiak.animationsproject.animators.ViewPropertyAnimatorActivity;
@@ -48,6 +54,12 @@ public class MainActivity extends AppCompatActivity {
         views.btnXmlAnimator.setOnClickListener(v -> openActivity(XMLAnimatorActivity.class));
         views.btnSimpleTransition.setOnClickListener(v -> openActivity(SimpleTransitionActivity.class));
         views.btnTransitionResources.setOnClickListener(v -> openActivity(TransitionResourcesActivity.class));
+        views.btnExplodeAndSlide.setOnClickListener(v -> openActivity(ExplodeAndSlideActivity.class));
+        views.btnCoordinatedMotion.setOnClickListener(v -> openActivity(CoordinatedMotionActivity.class));
+        views.btnTransforms.setOnClickListener(v -> openActivity(TransformsActivity.class));
+        views.btnSharedElement.setOnClickListener(v -> openActivity(SharedElementActivity.class));
+        views.btnWindowContentTransitions.setOnClickListener(v -> openActivity(WindowContentTransitionsActivity.class));
+        views.btnFragmentTransition.setOnClickListener(v -> openActivity(FragmentTransitionsActivity.class));
     }
 
     private void openActivity(Class activityClass) {
