@@ -205,6 +205,52 @@
                 android:layout_marginTop="8dp"
                 android:text="Fragment Transition"
                 android:textAllCaps="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Animated Vector Drawable"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/btn_multi_file_approach"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Multi File Approach"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_single_file_approach"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Single File Approach"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_trim_path"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Trim path"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Useful Animation libraries"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/btn_lottie"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Lottie"
+                android:textAllCaps="false" />
         </LinearLayout>
     </ScrollView>
 </layout>

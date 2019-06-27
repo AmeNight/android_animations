@@ -10,8 +10,9 @@ import com.example.elysiak.animationsproject.advanced_transitions.CoordinatedMot
 import com.example.elysiak.animationsproject.advanced_transitions.ExplodeAndSlideActivity;
 import com.example.elysiak.animationsproject.advanced_transitions.TransformsActivity;
 import com.example.elysiak.animationsproject.advanced_transitions.fragment_transitions.FragmentTransitionsActivity;
-import com.example.elysiak.animationsproject.advanced_transitions.window.WindowContentTransitionsActivity;
 import com.example.elysiak.animationsproject.advanced_transitions.shared_element.SharedElementActivity;
+import com.example.elysiak.animationsproject.advanced_transitions.window.WindowContentTransitionsActivity;
+import com.example.elysiak.animationsproject.animation_libraries.LottieActivity;
 import com.example.elysiak.animationsproject.animators.AnimatorSetActivity;
 import com.example.elysiak.animationsproject.animators.ObjectAnimatorActivity;
 import com.example.elysiak.animationsproject.animators.ViewPropertyAnimatorActivity;
@@ -27,6 +28,9 @@ import com.example.elysiak.animationsproject.constraint_animations.PlaceHolderAn
 import com.example.elysiak.animationsproject.databinding.ActivityMainBinding;
 import com.example.elysiak.animationsproject.transitions.SimpleTransitionActivity;
 import com.example.elysiak.animationsproject.transitions.resources.TransitionResourcesActivity;
+import com.example.elysiak.animationsproject.vector_drawable_animations.MultiFileApproachActivity;
+import com.example.elysiak.animationsproject.vector_drawable_animations.SingleFileApproachActivity;
+import com.example.elysiak.animationsproject.vector_drawable_animations.TrimPathActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -60,6 +64,10 @@ public class MainActivity extends AppCompatActivity {
         views.btnSharedElement.setOnClickListener(v -> openActivity(SharedElementActivity.class));
         views.btnWindowContentTransitions.setOnClickListener(v -> openActivity(WindowContentTransitionsActivity.class));
         views.btnFragmentTransition.setOnClickListener(v -> openActivity(FragmentTransitionsActivity.class));
+        views.btnMultiFileApproach.setOnClickListener(v -> openActivity(MultiFileApproachActivity.class));
+        views.btnSingleFileApproach.setOnClickListener(v -> openActivity(SingleFileApproachActivity.class));
+        views.btnTrimPath.setOnClickListener(v -> openActivity(TrimPathActivity.class));
+        views.btnLottie.setOnClickListener(v -> openActivity(LottieActivity.class));
     }
 
     private void openActivity(Class activityClass) {

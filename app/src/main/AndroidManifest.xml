@@ -46,6 +46,10 @@
             android:name=".advanced_transitions.window.WindowContentTransitions2Activity"
             android:theme="@style/WindowTransitions" />
         <activity android:name=".advanced_transitions.fragment_transitions.FragmentTransitionsActivity" />
+        <activity android:name=".vector_drawable_animations.MultiFileApproachActivity" />
+        <activity android:name=".vector_drawable_animations.SingleFileApproachActivity" />
+        <activity android:name=".vector_drawable_animations.TrimPathActivity" />
+        <activity android:name=".animation_libraries.LottieActivity" />
     </application>
 
 </manifest>
